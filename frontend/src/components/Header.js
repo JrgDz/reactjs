@@ -28,10 +28,12 @@ class Header extends Component{
                      <NavLink to="/formulario" activeClassName='active'>Formulario</NavLink>
                   </li>
                   <li>
-                     <NavLink to="/mi-componente" activeClassName='active'>Página 1</NavLink>
+                     {/* <NavLink to="/mi-componente" activeClassName='active'>Página 1</NavLink> */}
+                     <NavLink to="/home" activeClassName='active'>Página 1</NavLink>
                   </li>
                   <li>
-                     <NavLink to="/peliculas" activeClassName='active'>Página 2</NavLink>
+                     {/* <NavLink to="/peliculas" activeClassName='active'>Página 2</NavLink> */}
+                     <NavLink to="/home" activeClassName='active'>Página 2</NavLink>
                   </li>
                </ul>
             </nav>
